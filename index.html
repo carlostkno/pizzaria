@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Assets/style.css">
+    <script src="./Assets/index.js"></script>
+    <title>La Pizza</title>
+</head>
+<body>
+    <main>
+        <section class="intro">
+            <div class="container">
+                <h1>La P<span class="orange">i</span><span class="red">z</span><span class="green">z</span>a</h1>
+            </div>
+        </section>
+    </main>
+
+    <section class="catalogo">
+
+       <div class="container">  
+           <div class="info-pizza swiper mySwiper">
+               <div class="card swiper-wrapper">
+
+                   <div class="conteudo-card swiper-slide">
+                       <div class="imagem">
+                            <img src="Assets/img/pizza1.png" alt="imagem-pizza1">
+                       </div>
+                       <div class="descricao-pizza">
+                           <h3>La Cuma</h3>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia consequatur commodi voluptate ut! Facere.</p>
+                           <p class="preco">R$ 24,00</p>
+                       </div>
+                       <div class="btn-comprar">
+                           <a href="#"><span>Comprar</span></a>
+                        </div>
+                      </div>
+                      
+                      <div class="conteudo-card swiper-slide">
+                        <div class="imagem">
+                             <img src="Assets/img/pizza02.png" alt="imagem-pizza2">
+                        </div>
+                        <div class="descricao-pizza">
+                            <h3>La Menta</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus eligendi nulla, quas non tempora totam, aspernatur vero autem!.</p>
+                            <p class="preco">R$ 29,00</p>
+                        </div>
+                        <div class="btn-comprar">
+                            <a href="#"><span>Comprar</span></a>
+                         </div>
+                       </div>
+
+                       <div class="conteudo-card swiper-slide">
+                        <div class="imagem">
+                             <img src="Assets/img/pizza03.png" alt="imagem-pizza3">
+                        </div>
+                        <div class="descricao-pizza">
+                            <h3>La Bana</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi doloribus, aut fugit, aliquam fuga. amet consectetur adipisicing elit.</p>
+                            <p class="preco">R$ 22,00</p>
+                        </div>
+                        <div class="btn-comprar">
+                            <a href="#"><span>Comprar</span></a>
+                         </div>
+                       </div>
+
+                       <div class="conteudo-card swiper-slide">
+                        <div class="imagem">
+                             <img src="Assets/img/pizza04.png" alt="imagem-pizza4">
+                        </div>
+                        <div class="descricao-pizza">
+                            <h3>La Toca</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum numquam iste, optio voluptatum dolor sit amet.</p>
+                            <p class="preco">R$ 28,00</p>
+                        </div>
+                        <div class="btn-comprar">
+                            <a href="#"><span>Comprar</span></a>
+                         </div>
+                       </div>
+
+                       <div class="conteudo-card swiper-slide">
+                        <div class="imagem">
+                             <img src="Assets/img/pizza02.png" alt="imagem-pizza5">
+                        </div>
+                        <div class="descricao-pizza">
+                            <h3>La Vento</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nostrum quod commodi cum officiis.sit amet consectetur adipisicing elit.</p>
+                            <p class="preco">R$ 25,00</p>
+                        </div>
+                        <div class="btn-comprar">
+                            <a href="#"><span>Comprar</span></a>
+                         </div>
+                       </div>
+
+                       <div class="conteudo-card swiper-slide">
+                        <div class="imagem">
+                             <img src="Assets/img/pizza03.png" alt="imagem-pizza5">
+                        </div>
+                        <div class="descricao-pizza">
+                            <h3>La Sol</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi voluptas reprehenderit totam quasi voluptas.</p>
+                            <p class="preco">R$ 28,00</p>
+                        </div>
+                        <div class="btn-comprar">
+                            <a href="#"><span>Comprar</span></a>
+                         </div>
+                       </div>
+
+                   </div>
+                   <div class="swiper-button-next"></div>
+                   <div class="swiper-button-prev"></div>
+                   <div class="swiper-pagination"></div>
+                </div>
+              </div>
+               </div>
+           </div>
+       </div>
+
+    </section>
+
+    <section class="sobre">
+        <div class="historia-pizzaria">
+            
+        </div>
+    </section>
+
+     <!-- Swiper JS -->
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+     <!-- Initialize Swiper -->
+     <script>
+       var swiper = new Swiper(".mySwiper", {
+         slidesPerView: 3,
+         spaceBetween: 30,
+         slidesPerGroup: 3,
+         loop: true,
+         loopFillGroupWithBlank: true,
+         pagination: {
+           el: ".swiper-pagination",
+           clickable: true,
+         },
+         navigation: {
+           nextEl: ".swiper-button-next",
+           prevEl: ".swiper-button-prev",
+         },
+       });
+     </script>
+</body>
+</html>
