@@ -70,6 +70,16 @@ body {
     width: 950px;
 }
 
+.titulo-catalogo{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    font-size: 30px;
+    padding: 30px auto;
+    font-weight: bold;
+}
+
 .catalogo {
     height: 100%;
     display: flex;
