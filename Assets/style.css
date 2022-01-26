@@ -195,6 +195,27 @@ section .card .imagem img:hover {
     height: 10%;
  }
 
+ @media screen and (max-width: 1213px) {
+    .sobre .container-sobre {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 50px;
+        width: 100%;
+    }
 
+    .sobre {
+        background-color: #fff;
+    }
+
+
+    footer {
+        margin-top: 20rem;
+        background-color: #fff;
+    }
+ }
+
+ @media screen and (max-width: 971px) {
+    
+ }
  
 
